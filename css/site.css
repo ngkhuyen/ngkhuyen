@@ -6,7 +6,7 @@
     transition: all 0.25s ease;
 }
 .header{
-    background-image: url(/images/background01.jpg);
+    background-image: url("https://ngkhuyen.github.io/ngkhuyen/images/background01.jpg");
     position: absolute;
     top: 0;
     left: 0;
