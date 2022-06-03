@@ -20,18 +20,28 @@
     position: absolute;
    top: 0;
     left: 0;
-  width: 100%;
-    text-align: center;
-    padding: 5px 0;
+    
   font-size: 20px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+    text-align: center;
+    padding: 5px 0;
 }
 .linear
 {
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.txt h1{
+    font-size: 50px;
+    color: #fff;
+}
+.txt p{
+    font-size: 30px;
+    color: #fff;
 }
 .txt
 {
@@ -42,14 +52,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.txt h1{
-    font-size: 50px;
-    color: #fff;
-}
-.txt p{
-    font-size: 30px;
-    color: #fff;
 }
 .anh-nguoi{
     position: absolute;
@@ -125,24 +127,7 @@ a{
   grid-template-rows: 20vh 20vh 20vh;
   padding: 3rem 2rem;
 }
-  
-.anh-item{
-  overflow: hidden;
-  object-fit: cover;
-  cursor: pointer;
-  border: 1px solid #fff;
-}
-  
-.anh-item img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
-.anh-item img:hover
-{
-  transform: scale(1.02);
-}
+
 /*    */
 .anh-item:nth-child(1){
   grid-column: 1/2;
@@ -176,3 +161,22 @@ a{
   grid-row: 2/4;
   grid-column: 4/5;
 }
+  
+.anh-item{
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+  
+.anh-item img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.anh-item img:hover
+{
+  transform: scale(1.02);
+}
+
